@@ -119,6 +119,7 @@ def run(
                 color = Object_colors[Object_classes.index(label)]
                 frame = cv2.rectangle(frame, (xmin, ymin), (xmax, ymax), color, 2)
                 frame = cv2.putText(frame, f'{label} ({str(score)})', (xmin, ymin), cv2.FONT_HERSHEY_SIMPLEX,	0.75, color, 1, cv2.LINE_AA)
+            frame = cv2.resize(frame, (0, 0), fx=2, fy=2)
             # display the frame
             cv2.imshow("CSI Camera", frame)
             if cv2.waitKey(25) & 0xFF == ord('q'):
