@@ -123,7 +123,7 @@ def run(
             cv2.imshow("CSI Camera", frame)
             if cv2.waitKey(25) & 0xFF == ord('q'):
                 break
-        cap.release()
+        source.release()
         cv2.destroyAllWindows()
     ####################################################################################
 
