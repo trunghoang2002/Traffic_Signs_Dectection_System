@@ -1,0 +1,41 @@
+names:
+- 102
+- 103a
+- 104
+- 106b
+- 107a
+- 110a
+- 112
+- 117
+- 123a
+- 123b
+- 124a1
+- 127
+- 128
+- 130
+- 131a
+- 131b
+- 131c
+- 207b
+- 208
+- 210
+- 224
+- 225
+- 240
+- 245a
+- 302a
+- 303
+- 407a
+- 408
+- 423b
+- 434a
+nc: 30
+roboflow:
+  license: CC BY 4.0
+  project: traffic-sign-model-9xhqf
+  url: https://universe.roboflow.com/quoc-nguyen-sgjwa/traffic-sign-model-9xhqf/dataset/26
+  version: 26
+  workspace: quoc-nguyen-sgjwa
+test: ../test/images
+train: /content/datasets/Traffic-sign-model-26/train/images
+val: /content/datasets/Traffic-sign-model-26/valid/images
