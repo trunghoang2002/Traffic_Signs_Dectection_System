@@ -1,2 +1,4 @@
-# pbl5
-Just download all and replace them in the folder after you clone yolov5 github repo except this readme
+# pbl5 model
+- Yolov5
+- Yolov7
+- Faster R-CNN
