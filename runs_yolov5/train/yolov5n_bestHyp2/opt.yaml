@@ -1,0 +1,69 @@
+weights: runs/train/yolov5n_bestHyp2/weights/last.pt
+cfg: ''
+data: /content/PBL5-1/data.yaml
+hyp:
+  lr0: 0.01061
+  lrf: 0.01
+  momentum: 0.9417
+  weight_decay: 0.00046
+  warmup_epochs: 3.0
+  warmup_momentum: 0.82301
+  warmup_bias_lr: 0.1
+  box: 0.04985
+  cls: 0.5
+  cls_pw: 0.99655
+  obj: 1.058
+  obj_pw: 1.0
+  iou_t: 0.2
+  anchor_t: 3.5781
+  fl_gamma: 0.0
+  hsv_h: 0.01465
+  hsv_s: 0.65497
+  hsv_v: 0.42314
+  degrees: 0.0
+  translate: 0.10011
+  scale: 0.5002
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.0
+  mosaic: 0.94252
+  mixup: 0.0
+  copy_paste: 0.0
+  anchors: 3.0
+epochs: 50
+batch_size: 16
+imgsz: 640
+rect: false
+resume: true
+nosave: false
+noval: false
+noautoanchor: false
+noplots: false
+evolve: null
+bucket: ''
+cache: ram
+image_weights: false
+device: '0'
+multi_scale: false
+single_cls: false
+optimizer: SGD
+sync_bn: false
+workers: 8
+project: runs/train
+name: yolov5n_bestHyp
+exist_ok: false
+quad: false
+cos_lr: false
+label_smoothing: 0.0
+patience: 100
+freeze:
+- 0
+save_period: -1
+seed: 0
+local_rank: -1
+entity: null
+upload_dataset: false
+bbox_interval: -1
+artifact_alias: latest
+save_dir: runs/train/yolov5n_bestHyp2
