@@ -7,19 +7,19 @@ Dataset :
  ![](/images/dataset.png)
 
 ### 2. System structure
-##### a. There are 3 main python files as 3 modules:
+##### There are 3 main python files as 3 modules:
 - [detect_traffic_sign.py] :Run detection inference with GUI
 - [train.py] :Train a model on a custom dataset
 - [val.py] :Validate a trained detection model on a detection dataset
 
 ### 3. Installation
-1. Install requirement.txt
+a. Install requirement.txt
 ```shell
 pip install -r requirements.txt
 ```
-2. Run inference
+b. Run inference
 ```shell
 python detect_traffic_sign.py
 ```
 ### 4. Result
-![](images/result.gif)
+![](images/result.png)
